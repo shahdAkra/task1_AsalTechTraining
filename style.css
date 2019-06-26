@@ -3,6 +3,7 @@ body{
     height: 100%;
     width: 100%;
     font-family:'Open Sans', sans-serif;
+    height: 30vh;
 }
 
 #container{
@@ -13,10 +14,11 @@ body{
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-left: 14vh;
+    margin-right: 14vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    height: 70vh;
 }
 
 #firstBlock{
@@ -65,12 +67,14 @@ body{
 
 #icon{
     margin-top: 2rem;
-    block-size: 5rem;
+    block-size: 10vh;
     margin-left: -0.5rem;
+    max-width: 100%;
 }
 
 #pic{
     margin-left: 4rem;
     margin-right: 0.5rem;
-    block-size: 20rem;
+    block-size: 40vh;
+    max-width: 100%;
 }
